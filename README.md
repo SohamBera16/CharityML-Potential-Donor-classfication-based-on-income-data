@@ -11,6 +11,8 @@ The dataset for this project originates from the UCI Machine Learning Repository
 ### Data exploration and investigating the data
 
 ### Data preparation/preprocessing 
-#### Transformation and Normalization, One-hot encoding of categorical variables 
+Transformation and Normalization, One-hot encoding of categorical variables 
 
 ### Creation of a baseline "naive predictor" model to define what success means for this project
+
+### Choosing the right metrics for model evaluation
