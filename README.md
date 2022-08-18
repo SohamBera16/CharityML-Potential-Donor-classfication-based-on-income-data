@@ -18,3 +18,5 @@ Transformation and Normalization, One-hot encoding of categorical variables
 ### 6) Choosing the right metrics for model evaluation
 
 ### 7) Selection of a subset of appropriate models for the  problem 
+
+### 8) Initial evaluation of the chosen models and choosing the best model
