@@ -20,3 +20,6 @@ Transformation and Normalization, One-hot encoding of categorical variables
 ### 7) Selection of a subset of appropriate models for the  problem 
 
 ### 8) Initial evaluation of the chosen models and choosing the best model
+depending on various metrics e.g. F score on the testing when 100% of the training data is used
+
+
