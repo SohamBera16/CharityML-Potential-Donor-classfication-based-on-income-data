@@ -24,4 +24,6 @@ depending on various metrics e.g. F score on the testing when 100% of the traini
 
 ### 9) Model tuning using Grid Search algorithm
 
+### 10) Final Model evaluation
+
 
