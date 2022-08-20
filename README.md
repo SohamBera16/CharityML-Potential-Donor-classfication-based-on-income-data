@@ -28,4 +28,6 @@ depending on various metrics e.g. F score on the testing when 100% of the traini
 
 ### 11) Extracting Important features and corresponding Feature relevance observation
 
+### 12) Feature selection 
+
 
