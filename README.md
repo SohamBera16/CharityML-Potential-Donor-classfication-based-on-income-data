@@ -14,7 +14,9 @@ Data understanding is gained for the use case by calculating factors like - Tota
 ### 4) Data preparation/preprocessing 
 Checking for skewed features, performing logarithmic transformation to significantly reduce the range of values caused by outliers. [However, Care must be taken when applying this transformation: As the logarithm of 0 is undefined, the values must be translated by a small amount above 0 to apply the logarithm successfully.]
 
-Transformation and Normalization, One-hot encoding of categorical variables 
+ Normalization of the numerical features so that each feature is treated equally when applying supervised learners.
+ 
+ In addition, One-hot encoding of categorical variables has been performed. As typically, learning algorithms expect input to be numeric, which requires that non-numeric features (called categorical variables) be converted.
 
 ### 5) Creation of a baseline "naive predictor" model to define what success means for this project
 
