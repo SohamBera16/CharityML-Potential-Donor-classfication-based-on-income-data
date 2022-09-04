@@ -21,7 +21,7 @@ Checking for skewed features, performing logarithmic transformation to significa
 ### 5) Creation of a baseline "naive predictor" model to define what success means for this project
 
 ### 6) Choosing the right metrics for model evaluation
-As we 
+As we have 
 
 ### 7) Selection of a subset of appropriate models for the  problem 
 
