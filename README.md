@@ -19,7 +19,7 @@ Checking for skewed features, performing logarithmic transformation to significa
  In addition, One-hot encoding of categorical variables has been performed. As typically, learning algorithms expect input to be numeric, which requires that non-numeric features (called categorical variables) be converted.
 
 ### 5) Creation of a baseline "naive predictor" model to define what success means for this project
-Based on the 
+Based on the data exploration step, 
 
 ### 6) Choosing the right metrics for model evaluation
 As we have inherent data imbalance in the sample as the number of people who earn less than or equal to $50000 is much more than the ones who earn more than that benchmark. Hence, accuracy is not going to be an appropriate metric to evaluate our model prediction performance. Hence, to take into account the aspects of both precision and recall of our model, we use the F-beta score metric for model evaluation. 
