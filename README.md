@@ -25,7 +25,7 @@ Based on the data exploration step, we create a naive predictor model which pred
 As we have inherent data imbalance in the sample as the number of people who earn less than or equal to $50000 is much more than the ones who earn more than that benchmark. Hence, accuracy is not going to be an appropriate metric to evaluate our model prediction performance. Hence, to take into account the aspects of both precision and recall of our model, we use the F-beta score metric for model evaluation. 
 
 ### 7) Selection of a subset of appropriate models for the  problem 
-Different candidate models were tested on a subset of the available dataset to choose the best model out of 3 candidate algorithms on the basis 
+Different candidate models were tested on a subset of the available dataset to choose the best model out of 3 candidate algorithms - Random Forest classifier, on the basis of training time as well as  
 
 ### 8) Initial evaluation of the chosen models and choosing the best model
 depending on various metrics e.g. F score on the testing when 100% of the training data is used, prediction/training time, and the algorithm's suitability for the data.
