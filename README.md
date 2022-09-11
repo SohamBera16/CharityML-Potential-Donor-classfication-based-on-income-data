@@ -31,7 +31,7 @@ Different candidate models were tested on a subset of the available dataset to c
 depending on various metrics e.g. F score on the testing when 100% of the training data is used, prediction/training time, and the algorithm's suitability for the data.
 
 ### 9) Model tuning using Grid Search algorithm
-Next, the chosen model's hyperparameters were 
+Next, the chosen model's hyperparameters were tuned using the Grid 
 
 ### 10) Final Model evaluation
 
