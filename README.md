@@ -34,6 +34,7 @@ depending on various metrics e.g. F score on the testing when 100% of the traini
 Next, the chosen model's hyperparameters were tuned using the Grid search algorithm to find out the best set of hyperparameter values that would best fit the model into the chosen dataset. 
 
 ### 10) Final Model evaluation
+1) the optimized model's accuracy and F-score on the testing data are respectively 0.8420 and 0.6842. 
 
 ### 11) Extracting Important features and corresponding Feature relevance observation
 
