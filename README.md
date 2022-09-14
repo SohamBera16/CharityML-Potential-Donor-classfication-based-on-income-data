@@ -39,7 +39,7 @@ Next, the chosen model's hyperparameters were tuned using the Grid search algori
 ### 11) Extracting Important features and corresponding Feature relevance observation
 We choose a scikit-learn classifier (e.g., adaboost, random forests) that has a feature_importances_ attribute, which is a function that ranks the importance of features according to the chosen classifier. We fit this classifier to training set and use this attribute to determine the top 5 most important features for the census dataset.
 
-### 12) Effects of selecting certain features on the final model
+### 12) Feature selection and Dimensionality reduction
 An attempt to reduce the feature space and simplify the information required for the model to learn was made according to the selected features. Then, the optimized logistic regression model was trained on the same training set with only the top five important features.
 
 
