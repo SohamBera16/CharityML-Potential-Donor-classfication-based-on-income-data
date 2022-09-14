@@ -37,7 +37,7 @@ Next, the chosen model's hyperparameters were tuned using the Grid search algori
 #### 1) the optimized model's accuracy and F-score on the testing data are respectively 0.8420 and 0.6842. 2) The scores are slightly better than the results of the unoptimized model. 3) In comparison with the naive predictor's performance, which is Accuracy score: 0.2478, F-score: 0.2917, the optimized model has far outperformed the naive model.
 
 ### 11) Extracting Important features and corresponding Feature relevance observation
-We choose a scikit-learn classifier (e.g., adaboost, random forests) that has a feature_importances_ attribute, which is a function that ranks the importance of features according to the chosen classifier. We fit this classifier to training set and use this attribute to determine the top 5 most important features for the census dataset.
+We choose a scikit-learn classifier (e.g., adaboost, random forests) that has a feature_importances_ attribute, which is a function that ranks the importance of features according to the chosen classifier. 
 
 ### 12) Final important Feature selection and effects of selecting certain features on the final model
 
