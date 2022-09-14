@@ -42,4 +42,10 @@ We choose a scikit-learn classifier (e.g., adaboost, random forests) that has a 
 ### 12) Feature selection and Dimensionality reduction
 An attempt to reduce the feature space and simplify the information required for the model to learn was made according to the selected features. Then, the optimized logistic regression model was trained on the same training set with only the top five important features.
 
+### 13) Effects of selecting certain features on the final model
+The final model accuracy score with the important features sees a dip of approximately 4% in terms of accuracy score. But the more important factor for our imbalanced dataset problem, F-score, sees a huge drop of around 10% when we reduce the feature space.
+
+#### Conclusion: 
+Even if training time was an important factor, the prediction performance should not be compromised so much by using the reduced dataset as it might completely fail the goal of prediction (as can be seen from the downfall in F-score) using machine learning technology and bring us closer to the prediction probability of random chance! Moreover, the training time difference between the two is also not very high so as to slow down the decision making process. We can always send the emails to potential donors after a few days rather than sending a huge number of mails to non-donors causing us a huge overhead cost!
+
 
