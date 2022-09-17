@@ -27,6 +27,8 @@ As we have inherent data imbalance in the sample as the number of people who ear
 ### 7) Selection of a subset of appropriate models for the  problem 
 Different candidate models were tested on a subset of the available dataset to choose the best model out of 3 candidate algorithms - Random Forest classifier, Support Vector Classifier, and Logistic Regression on the basis of training time as well as the achieved F1 score on the test dataset. 
 
+![model selection](https://github.com/SohamBera16/CharityML-Potential-Donor-classfication-based-on-income-data/blob/main/performance%20comparison.png)
+
 ### 8) Initial evaluation of the chosen models and choosing the best model
 depending on various metrics e.g. F score on the testing when 100% of the training data is used, prediction/training time, and the algorithm's suitability for the data.
 
