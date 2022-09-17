@@ -12,7 +12,13 @@ The dataset for this project originates from the UCI Machine Learning Repository
 Data understanding is gained for the use case by calculating factors like - Total number of people in the sample, number of people who earns or does not earn more than $50000, percentage of people in the sample with income greater than $50000. The featureset was also explored to gain some knowledge about the different factors that affect the income of a person for our sample.
 
 ### 4) Data preparation/preprocessing 
-Checking for skewed features, performing logarithmic transformation to significantly reduce the range of values caused by outliers. [However, Care must be taken when applying this transformation: As the logarithm of 0 is undefined, the values must be translated by a small amount above 0 to apply the logarithm successfully.]
+Checking for skewed features and performing logarithmic transformation to significantly reduce the range of values caused by outliers. 
+
+![skewed distributions](https://github.com/SohamBera16/CharityML-Potential-Donor-classfication-based-on-income-data/blob/main/skewed%20distributions.png)
+
+[However, Care must be taken when applying this transformation: As the logarithm of 0 is undefined, the values must be translated by a small amount above 0 to apply the logarithm successfully.]
+
+![log transformed distributions](https://github.com/SohamBera16/CharityML-Potential-Donor-classfication-based-on-income-data/blob/main/log%20transformed%20dist.png)
 
  Normalization of the numerical features so that each feature is treated equally when applying supervised learners.
  
