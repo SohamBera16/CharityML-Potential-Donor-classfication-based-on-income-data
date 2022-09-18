@@ -1,5 +1,7 @@
 # CharityML-Potential-Donor-classfication-based-on-income-data
 
+![donor identification](https://github.com/SohamBera16/CharityML-Potential-Donor-classfication-based-on-income-data/blob/main/Charity-Image.png)
+
 ## Steps followed for this project:
 
 ### 1) Business Objective
